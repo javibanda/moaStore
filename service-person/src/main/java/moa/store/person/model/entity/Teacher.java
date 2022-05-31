@@ -12,4 +12,5 @@ import javax.persistence.Table;
 
 public class Teacher{
 
+
 }
