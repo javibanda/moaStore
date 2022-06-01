@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class ClientService extends BaseService<Client>{
 
 
-    PersonService personService;
+    private final PersonService personService;
     private final ClientRepository clientRepository;
 
 
