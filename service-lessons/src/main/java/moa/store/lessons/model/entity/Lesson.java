@@ -19,9 +19,8 @@ import java.sql.Time;
 @SuperBuilder
 public class Lesson extends BaseEntity {
 
-    private Date day;
+    private Date date;
     private Time initTime;
     private Time finishTime;
-    private float duration;
-
+    private Long duration;
 }
